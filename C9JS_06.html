@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>06. Conditional LOgic in JavaScript </title>
+<script type ="text/javascript">
+
+var someValue = 24;
+var otherValue =23;
+/*
+if (someValue > 30){
+alert ("first case");
+}
+
+else if (someValue === 30){
+alert("Second case");
+}
+
+
+else if (someValue === 25){
+ alert("third case ");
+}
+
+else {
+alert(" fourth case ")
+}
+
+
+
+if (someValue > 20 && otherValue >20){
+alert("fifth case");
+}
+
+
+if (someValue === 24 || otherValue === 24){
+alert ("sixthcase ")
+}
+*/
+/*
+someValue = false;
+
+if (someValue !==  24){
+
+}
+
+
+if(!someValue){
+
+}
+
+
+var myResult =" ";
+myResult = (someValue === 24) ? "equal" : "not equal";
+alert(myResult);
+
+
+
+var userName = "Rimmer";
+switch(userName)
+{
+case "Listner":
+	document.write("care for a good curry?");
+	break;
+case "Rimmer":
+	document.write("Welcome back, smeg head");
+	break;
+default:
+	document.write("Are you an emohawk?");
+	break;
+	
+	
+}
+*/
+
+
+var rightNow = new Date();
+var currentHour = rightNow.getHours();
+switch(true){
+
+	case (currentHour > 1 && currentHour < 4):
+		document.write("MIdnight");
+		break;
+	case (currentHour === 12):
+		document.write("LUnch time");
+		break;
+	case (currentHour > 12 && currentHour < 18):
+		document.write("Fight the urge to go home");
+		break;
+	default:
+		document.write("Ok i dont know what time it is ");
+		break;
+		
+}
+
+
+
+
+</script>
+</head>
+
+<body>
+
+<h1>JavaScript Example</h1>
+
+</body>
+</html>

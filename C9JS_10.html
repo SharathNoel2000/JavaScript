@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript Functional varibles vs Global</title>
+<script type ="text/javascript">
+/*
+if (true){
+
+var x= 5;
+
+}
+alert(x);
+*/
+
+myScope = "global";
+/*
+(function(){
+if (true)
+{
+	 var myScope= "functionn";
+}
+	 //myScope= " this is setting function";
+	alert ('inside the function the scope :' + myScope);
+})();
+
+alert ('out side the function the scope is :' + myScope);
+*/
+
+alert('window.myScope:'+  window.myScope);
+
+
+</script>
+
+
+
+</head>
+
+<body>
+
+<h1>JavaScript Functional varibles vs Global</h1>
+
+</body>
+</html>
